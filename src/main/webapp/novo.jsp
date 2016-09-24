@@ -9,6 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/bootstrap.min.css"/>"/> 
 </head>
 <body>
-
+   <%--Página usada para template --%>
 </body>
 </html>
