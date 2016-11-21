@@ -5,14 +5,14 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Insert title here</title>
+	<title>Index</title>
 	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/bootstrap.min.css"/>"/> 
 </head>
 <body>
     <div class="container">
     	<div class="jumbotron"><h4>Sistemas Web</h4></div>
-    	<a class="btn btn-primary" href="/NovoProjeto/cadastrar.jsp">Cadastrar</a>
-		<a class="btn btn-primary" href="/NovoProjeto/listar.jsp">Listar</a>
+    	<a class="btn btn-primary" href="/ServletBasico-VIII/cadastrar.jsp">Cadastrar</a>
+		<a class="btn btn-primary" href="/ServletBasico-VIII/listar.jsp">Listar</a>
     </div>
 </body>
 </html>

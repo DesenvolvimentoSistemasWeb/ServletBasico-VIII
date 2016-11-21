@@ -2,13 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.edu.estacio</groupId>
-  <artifactId>servletInfo</artifactId>
+  <artifactId>ServletBasico-VIII</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>Arquetipo-Servlet Maven Webapp</name>
   <url>http://maven.apache.org</url>
  <properties>
-  	<JBOSS_HOME>${env.HOME}/jboss-6.4.0</JBOSS_HOME>
+  	<JBOSS_HOME>${env.HOME}/jboss-eap-6.4</JBOSS_HOME>
   	<maven.repository>file:///${env.HOME}/.m2/repository/deployments</maven.repository>
   </properties>
 
