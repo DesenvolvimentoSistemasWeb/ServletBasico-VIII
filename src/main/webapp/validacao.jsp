@@ -27,8 +27,8 @@
 		%>
   		<div class="panel panel-default">
   	   		<div class="panel-body">
-  	     		<p>Identificador: <%= pageContext.findAttribute("id") %></p><br>
-  	     		<p>Nome: <%= pageContext.findAttribute("nome") %></p>
+  	     		<p>Identificador: <%= pageContext.getAttribute("id",PageContext.SESSION_SCOPE) %></p><br>
+  	     		<p>Nome: <%= pageContext.findAttribute("nome",PageContext.SESSION_SCOPE) %></p>
   	   		</div>
   		</div>
 		<a class="btn btn-primary" href="listar.jsp">Mostrar Valores</a>
