@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored ="false" %> 
+<%@ page import="java.util.logging.Logger" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,6 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/bootstrap.min.css"/>"/> 
 </head>
 <body>
+	<%
+		Logger logger = Logger.getLogger(this.getClass().getName());
+	%>
     <div class="container">
     	<div class="jumbotron">
     		<h4>Sistemas Web</h4>
@@ -25,6 +29,7 @@
   			//Limpa os atributos de qualquer tipo de escopo
   			pageContext.removeAttribute("id");
   			pageContext.removeAttribute("nome");
+  			logger.info("Limpando a sessão de página!!");
   		%>    	
     </div>	
 </body>
